@@ -1,0 +1,307 @@
+body {
+    width: 1152px;
+    margin: auto;
+    font-size: 100%;
+    text-align: left;
+}
+
+body h2, h1{
+    font-family: 'Merriweather', serif;
+}
+body p, a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+/*Шапка сайта*/
+.topline{
+ 
+}
+
+.logo {
+
+}
+.header-info{
+
+}
+.header-info li{
+    margin-right: 20px;
+
+}
+
+.header-info img{
+    margin-right: 5px;
+}
+
+nav{
+    display: flex;
+    text-align: right;
+}
+
+nav a{
+    margin-right: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.main-frame{
+    width: 1920px;
+    position: relative;
+    text-align: left;
+    margin-left: -34%;
+    margin-right: -34%;
+    clear: both;
+    height: 670px;
+    background-image: url("assets/header-background.jpg");
+}
+
+.main-frame span{
+    position: absolute;
+    left: 400px;
+    top: 110px;
+}
+
+.main-frame span h2{
+    color: white;
+    font-size: 2.5em;
+}
+
+button{
+    background-color: #005FA3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+.slider div{
+    margin-top: 220px;
+    margin-right: 20px;
+    float: left;
+    width: 10px; 
+    height: 10px;
+    background: #83A7C9;
+    border-radius: 50%;
+}
+
+.slider-control{
+    position: absolute;
+    bottom: 70px;
+    right: 380px;
+}
+
+.button-prev{
+    float: left;
+    margin-right: 5px;
+}
+
+.button-next{
+    float: right;
+}
+
+/*Контент сайта*/
+
+main{
+    margin-top: 100px;
+}
+
+/*Наши услуги*/
+
+.our-service .flex-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-service .first-row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.our-service .second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-service .flex-block{
+    position: relative;
+    margin-top: 30px;
+    width: 360px;
+    height: 360px;
+    background-size: 360px 360px;
+    background-image: url(assets/Pallete.jpg);
+}
+
+.our-service .flex-block p{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    color: white;
+}
+/*О нас*/
+
+.about-us p:first-child{
+    color: #BDBDBD;
+    margin-top: 100px;
+}
+
+.about-us .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .left-block span{
+    color: #005FA3;
+}
+
+.about-us .right-block{
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .right-block .flex-block{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 255px;
+    height: 255px;
+}
+
+.about-us .right-block h2{
+    font-size: 2.5em;
+}
+
+/*Наши клиенты*/
+
+.our-partner p:first-child{
+    color: #BDBDBD;
+    margin-top: 100px;
+}
+
+.our-partner .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-partner .flex-block div{
+    width: 200px;
+    height: 200px;
+    background-size: 200px 180px;
+    background-image: url(assets/Microsoft-logo.png);
+}
+
+/*Отзывы*/
+
+.feedback p:first-child{
+    color: #BDBDBD;
+    margin-top: 100px;
+}
+
+.comments{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.comments div img{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.comments div p{
+    float: left;
+    margin-left: 40px;
+}
+
+/*Подвал*/
+
+.footer-background{
+    margin-top: 200px;
+    position: relative;
+    width: 1920px;
+    height: 500px;
+    margin-left: -35%;
+    z-index: 0;
+    background-image: url("assets/footer-bg.jpg");
+}
+
+footer .grid-container {
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+footer .left-block{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+footer .left-block .inline div{
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .left-block img{
+    margin-right: 10px;
+}
+
+footer .right-block{
+    position:static;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer .right-block label{
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+
+footer .right-block input{
+    display: flex;
+    height: 100%;
+    width: 255px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+footer .inline{
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+footer .inline div:first-child{
+    margin-right: 20px;
+}
+
+
+footer .textarea{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+footer button{
+    margin-top: 20px;
+    float: right;
+}
+
+.watermark {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
